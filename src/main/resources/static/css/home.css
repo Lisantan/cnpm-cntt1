@@ -1,0 +1,82 @@
+body, html
+{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.container
+{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to bottom, #EE2780,#6BBDE8);
+}
+.top
+{
+	height: 240px;
+	width: 100%;
+	float: left;
+}
+img
+{
+	height: 100px;
+	width: 175px;
+}
+p
+{
+	font-size: 20px;
+	font-family: "Calibri";
+	color: #B13595;
+}
+.form
+{
+	margin: auto;
+	height: 300px;
+	width: 500px;
+}
+input[type="text"]
+{
+	height: 30px;
+	width: 250px;
+	background-color: #DADADA;
+	opacity: 0.4;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #DEDEDE;
+}
+input[type="text"]:hover
+{
+	opacity: 0.4;
+	background-color: #758EF1;
+}
+input[type="text"]:focus
+{
+	opacity: 0.4;
+	background-color: #758EF1;
+}
+a
+{
+	font-size: 17px;
+	font-family: "Calibri";
+	height: 35px;
+	width: 250px;
+	display: block;
+	text-decoration: none;
+	border-radius: 3px;
+	background-image: linear-gradient(to bottom right, #E74ECC, #17A8DE);
+	color: white;
+	padding-top: 15px;
+	cursor: pointer;
+}
+a:hover
+{
+	text-decoration: none;
+	background-image: linear-gradient(to bottom right, #FF8BEB, #48C7F6);
+}
+a:active
+{
+	text-decoration: none;
+	background-image: linear-gradient(to bottom right, #AB4299, #279CC7);
+	
+}
